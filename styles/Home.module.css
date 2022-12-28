@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Rubik:wght@300&display=swap');
+
+.code {
+  font-weight: 700;
+  font-family: var(--font-mono);
+}
+.popular{
+  font-size: 34px;
+  font-family: poppins;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+  scroll-behavior: smooth;
+}
+.main1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem;
+  min-height: 100vh;
+}
+.title {
+  font-family: poppins;
+  font-size: 35px;
+  margin: 0;
+  text-align: center;
+}
+
+.title p {
+  text-decoration: wavy;
+  font-size: 10px;
+  font-family: monospace;
+  text-shadow: 1px;
+}
+
+.btn1 {
+  text-decoration: none;
+  position: relative;
+  width: 200px;
+  padding: 15px 0;
+  text-align: center;
+  margin: 20px 10px;
+  font-weight: bold;
+  border: 2px solid #3eff37;
+  background: transparent;
+  cursor: pointer;
+  overflow: hidden;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+}
+.mainnav ul{
+display: flex;
+
+}
+.mainnav ul li{
+  list-style: none;
+margin: 0 24px;
+}
+.btn1 span{
+  background-color: #3eff37;
+  height: 100%;
+  width: 0%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: 2s;
+
+}
+
+.btn1:hover span {
+  transition: 0.5s;
+  border-radius: 10px;
+}
+.scroll{
+  align-items: center;
+  text-align: center;
+  scroll-behavior: smooth;
+  font-family: poppins;
+  
+}
